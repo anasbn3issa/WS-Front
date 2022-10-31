@@ -19,7 +19,7 @@ const routes: Routes =[
   { path: 'treatement', component: TreatementCardComponent},
   { path: 'vaccine', component: VaccineCardComponent},
   { path: 'users', component: UserCardComponent},
-  {path: '', redirectTo: 'product', pathMatch: 'full'}
+  {path: '', redirectTo: 'root', pathMatch: 'full'}
 ]
 
 @NgModule({
