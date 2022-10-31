@@ -1,0 +1,890 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.owl-ontologies.com/Famille.owl#"
+     xml:base="http://www.owl-ontologies.com/Famille.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.owl-ontologies.com/Famille.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#accepts -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#accepts"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#administred_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#administred_to"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#belongs -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#belongs"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#has"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#is_awarded -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#is_awarded"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#is_awarded_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#is_awarded_to"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#is_led_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#is_led_by"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#is_managed_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#is_managed_by"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#joins -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#joins"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#leads -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#leads"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#manage -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#manage"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#sheltered_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#sheltered_in"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#shelters -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#shelters"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#takes -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#takes"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#undertaken_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#undertaken_by"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#undertakes -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#undertakes"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#asocDesc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#asocDesc">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Association"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#asocName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#asocName">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Association"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#asocRIB -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#asocRIB">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Association"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#localAdr -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#localAdr">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Local"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#localName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#localName">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Local"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#localStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#localStatus">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Local"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#petAge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#petAge">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Pet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#petCaptureDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#petCaptureDate">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Pet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#petName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#petName">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Pet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#petRace -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#petRace">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Pet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#rwName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#rwName">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Reward"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#rwQuantity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#rwQuantity">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Reward"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#rwType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#rwType">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Reward"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#sterDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#sterDate">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Sterilization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#sterFee -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#sterFee">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Sterilization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#sterRemarks -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#sterRemarks">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Sterilization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#sterVeto -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#sterVeto">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Sterilization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#userEmail -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#userEmail">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#userPassword -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#userPassword">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#userUsername -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#userUsername">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#vacName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#vacName">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Vaccine"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#vacQty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#vacQty">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Vaccine"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#vacType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#vacType">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Vaccine"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#vacValidity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#vacValidity">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Vaccine"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#vetoAddress -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#vetoAddress">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Veterinarian"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#vetoEmail -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#vetoEmail">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Veterinarian"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#vetoName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#vetoName">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Veterinarian"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#vetoPhone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Famille.owl#vetoPhone">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Famille.owl#Veterinarian"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Association -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Association">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Famille.owl#Local"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#is_managed_by"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.owl-ontologies.com/Famille.owl#Manager"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Carnivora -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Carnivora">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Famille.owl#Cat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Cat -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Cat">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Famille.owl#Pet"/>
+        <owl:disjointWith rdf:resource="http://www.owl-ontologies.com/Famille.owl#Dog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Catus -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Catus">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Famille.owl#Cat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Distemper -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Distemper">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Famille.owl#Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Dog -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Dog">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Famille.owl#Pet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Herding -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Herding">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Famille.owl#Dog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Local -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Local">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#accepts"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Famille.owl#Volunteer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#shelters"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.owl-ontologies.com/Famille.owl#Pet"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#belongs"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.owl-ontologies.com/Famille.owl#Association"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Manager -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Manager">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#manage"/>
+                <owl:allValuesFrom rdf:resource="http://www.owl-ontologies.com/Famille.owl#Association"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Famille.owl#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Pet -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Pet">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#takes"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Famille.owl#Vaccine"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#sheltered_in"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.owl-ontologies.com/Famille.owl#Local"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#undertakes"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.owl-ontologies.com/Famille.owl#Sterilization"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Piroplasmosis -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Piroplasmosis">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Famille.owl#Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Reward -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Reward">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#is_awarded_to"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.owl-ontologies.com/Famille.owl#Volunteer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Sterilization -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Sterilization">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#is_led_by"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.owl-ontologies.com/Famille.owl#Veterinarian"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#undertaken_by"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.owl-ontologies.com/Famille.owl#Pet"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Famille.owl#Treatment"/>
+        <owl:disjointWith rdf:resource="http://www.owl-ontologies.com/Famille.owl#Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Terrier -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Terrier">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Famille.owl#Dog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Treatment -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Treatment"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#User -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#User"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Vaccine -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Vaccine">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#administred_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Famille.owl#Pet"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Famille.owl#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Veterinarian -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Veterinarian">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#leads"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Famille.owl#Sterilization"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Volunteer -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Famille.owl#Volunteer">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#joins"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/Famille.owl#Local"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Famille.owl#is_awarded"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.owl-ontologies.com/Famille.owl#Reward"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Famille.owl#User"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Caesar -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#Caesar">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Terrier"/>
+        <sheltered_in rdf:resource="http://www.owl-ontologies.com/Famille.owl#local1"/>
+        <takes rdf:resource="http://www.owl-ontologies.com/Famille.owl#Vac1"/>
+        <takes rdf:resource="http://www.owl-ontologies.com/Famille.owl#Vac2"/>
+        <petAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</petAge>
+        <petCaptureDate>2022-05-11:11:25:20</petCaptureDate>
+        <petName>Caesar</petName>
+        <petRace>German Shepard</petRace>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Evil -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#Evil">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Carnivora"/>
+        <sheltered_in rdf:resource="http://www.owl-ontologies.com/Famille.owl#local2"/>
+        <petAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</petAge>
+        <petCaptureDate>2022-01-01:11:11:11</petCaptureDate>
+        <petName>evil</petName>
+        <petRace>evil</petRace>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#SOS -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#SOS">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Association"/>
+        <asocDesc>zadadad</asocDesc>
+        <asocName>SOS</asocName>
+        <asocRIB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123456798</asocRIB>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Salem -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#Salem">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Veterinarian"/>
+        <leads rdf:resource="http://www.owl-ontologies.com/Famille.owl#ster1"/>
+        <vetoAddress>efef 151 efff</vetoAddress>
+        <vetoEmail>salem@email.com</vetoEmail>
+        <vetoName>Salem</vetoName>
+        <vetoPhone rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12345688</vetoPhone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Vac1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#Vac1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Distemper"/>
+        <vacName>Vac1</vacName>
+        <vacQty rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</vacQty>
+        <vacType>type1</vacType>
+        <vacValidity>2023-05-05:10:00:00</vacValidity>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Vac2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#Vac2">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Piroplasmosis"/>
+        <vacName>vac2</vacName>
+        <vacQty rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</vacQty>
+        <vacType>vac2Type</vacType>
+        <vacValidity>2023-05-06:10:00:00</vacValidity>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#Wajdi -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#Wajdi">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Veterinarian"/>
+        <vetoAddress>ZaniLove, 10 decembre, Tunis</vetoAddress>
+        <vetoEmail>wajdi@wajdi.com</vetoEmail>
+        <vetoName>Wajdi</vetoName>
+        <vetoPhone rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12345678</vetoPhone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#a7eba2_el_haywanet -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#a7eba2_el_haywanet">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Association"/>
+        <has rdf:resource="http://www.owl-ontologies.com/Famille.owl#local1"/>
+        <has rdf:resource="http://www.owl-ontologies.com/Famille.owl#local2"/>
+        <is_managed_by rdf:resource="http://www.owl-ontologies.com/Famille.owl#mgr1"/>
+        <asocDesc>nhebou el haywanet</asocDesc>
+        <asocName>a7eba2_el_haywanet</asocName>
+        <asocRIB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1234567897854</asocRIB>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#ba7lous -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#ba7lous">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Herding"/>
+        <sheltered_in rdf:resource="http://www.owl-ontologies.com/Famille.owl#local2"/>
+        <takes rdf:resource="http://www.owl-ontologies.com/Famille.owl#Vac2"/>
+        <undertakes rdf:resource="http://www.owl-ontologies.com/Famille.owl#ster2"/>
+        <petAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</petAge>
+        <petCaptureDate>2023-05-05:10:00:00</petCaptureDate>
+        <petName>ba7lous</petName>
+        <petRace>chihuahua</petRace>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#local1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#local1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Local"/>
+        <belongs rdf:resource="http://www.owl-ontologies.com/Famille.owl#a7eba2_el_haywanet"/>
+        <shelters rdf:resource="http://www.owl-ontologies.com/Famille.owl#Caesar"/>
+        <shelters rdf:resource="http://www.owl-ontologies.com/Famille.owl#9atous"/>
+        <localAdr>P9C6+F6R, Hammam-Lif</localAdr>
+        <localName>Samet Khaoula Local</localName>
+        <localStatus>open</localStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#local2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#local2">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Local"/>
+        <belongs rdf:resource="http://www.owl-ontologies.com/Famille.owl#a7eba2_el_haywanet"/>
+        <shelters rdf:resource="http://www.owl-ontologies.com/Famille.owl#Evil"/>
+        <shelters rdf:resource="http://www.owl-ontologies.com/Famille.owl#ba7lous"/>
+        <localAdr>132 zzzd 1515</localAdr>
+        <localName>loukal</localName>
+        <localStatus>clawsed</localStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#mgr1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#mgr1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Manager"/>
+        <manage rdf:resource="http://www.owl-ontologies.com/Famille.owl#a7eba2_el_haywanet"/>
+        <userEmail>mgr1@email.com</userEmail>
+        <userPassword>pwd123</userPassword>
+        <userUsername>mgr1</userUsername>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#rw1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#rw1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Reward"/>
+        <is_awarded_to rdf:resource="http://www.owl-ontologies.com/Famille.owl#vol1"/>
+        <rwName>Gift Card</rwName>
+        <rwQuantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rwQuantity>
+        <rwType>service</rwType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#rw2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#rw2">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Reward"/>
+        <is_awarded_to rdf:resource="http://www.owl-ontologies.com/Famille.owl#vol1"/>
+        <rwName>rewName</rwName>
+        <rwQuantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</rwQuantity>
+        <rwType>points</rwType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#ster1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#ster1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Sterilization"/>
+        <sterDate>2022-05-15:15:3:05</sterDate>
+        <sterFee rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22.5</sterFee>
+        <sterRemarks>RAS</sterRemarks>
+        <sterVeto>Wajdi</sterVeto>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#ster2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#ster2">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Sterilization"/>
+        <sterDate>2023-05-05:10:00:00</sterDate>
+        <sterFee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</sterFee>
+        <sterRemarks>mriglin</sterRemarks>
+        <sterVeto>wajdi</sterVeto>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#vol1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#vol1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Volunteer"/>
+        <is_awarded rdf:resource="http://www.owl-ontologies.com/Famille.owl#rw1"/>
+        <is_awarded rdf:resource="http://www.owl-ontologies.com/Famille.owl#rw2"/>
+        <userEmail xml:lang="email.com">vol1</userEmail>
+        <userPassword>pwd123</userPassword>
+        <userUsername>vol1</userUsername>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Famille.owl#9atous -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Famille.owl#9atous">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Famille.owl#Catus"/>
+        <sheltered_in rdf:resource="http://www.owl-ontologies.com/Famille.owl#local1"/>
+        <takes rdf:resource="http://www.owl-ontologies.com/Famille.owl#Vac1"/>
+        <undertakes rdf:resource="http://www.owl-ontologies.com/Famille.owl#ster1"/>
+        <petAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</petAge>
+        <petCaptureDate>2023-05-05:10:00:00</petCaptureDate>
+        <petName>9atous</petName>
+        <petRace>turkish</petRace>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

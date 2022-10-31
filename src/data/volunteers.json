@@ -1,0 +1,24 @@
+{ "head": {
+    "vars": [ "x" , "email" , "username" , "password" , "reward" , "rewardName" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#vol1" } ,
+        "email": { "type": "literal" , "xml:lang": "email.com" , "value": "vol1" } ,
+        "username": { "type": "literal" , "value": "vol1" } ,
+        "password": { "type": "literal" , "value": "pwd123" } ,
+        "reward": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#rw2" } ,
+        "rewardName": { "type": "literal" , "value": "rewName" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#vol1" } ,
+        "email": { "type": "literal" , "xml:lang": "email.com" , "value": "vol1" } ,
+        "username": { "type": "literal" , "value": "vol1" } ,
+        "password": { "type": "literal" , "value": "pwd123" } ,
+        "reward": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#rw1" } ,
+        "rewardName": { "type": "literal" , "value": "Gift Card" }
+      }
+    ]
+  }
+}

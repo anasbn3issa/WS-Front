@@ -1,0 +1,22 @@
+{ "head": {
+    "vars": [ "x" , "petAge" , "petCaptureDate" , "petName" , "petRace" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#ba7lous" } ,
+        "petAge": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" } ,
+        "petCaptureDate": { "type": "literal" , "value": "2023-05-05:10:00:00" } ,
+        "petName": { "type": "literal" , "value": "ba7lous" } ,
+        "petRace": { "type": "literal" , "value": "chihuahua" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#Caesar" } ,
+        "petAge": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" } ,
+        "petCaptureDate": { "type": "literal" , "value": "2022-05-11:11:25:20" } ,
+        "petName": { "type": "literal" , "value": "Caesar" } ,
+        "petRace": { "type": "literal" , "value": "German Shepard" }
+      }
+    ]
+  }
+}

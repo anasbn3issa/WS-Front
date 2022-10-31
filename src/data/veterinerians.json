@@ -1,0 +1,22 @@
+{ "head": {
+    "vars": [ "x" , "name" , "phone" , "address" , "email" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#Wajdi" } ,
+        "name": { "type": "literal" , "value": "Wajdi" } ,
+        "phone": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12345678" } ,
+        "address": { "type": "literal" , "value": "ZaniLove, 10 decembre, Tunis" } ,
+        "email": { "type": "literal" , "value": "wajdi@wajdi.com" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#Salem" } ,
+        "name": { "type": "literal" , "value": "Salem" } ,
+        "phone": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12345688" } ,
+        "address": { "type": "literal" , "value": "efef 151 efff" } ,
+        "email": { "type": "literal" , "value": "salem@email.com" }
+      }
+    ]
+  }
+}

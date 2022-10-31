@@ -1,0 +1,9 @@
+PREFIX ns: <http://www.owl-ontologies.com/Famille.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT *
+	WHERE {?x a ns:Distemper. ?x ns:vacName ?vacName .  ?x ns:vacType ?vacType. ?x ns:vacQty ?vacQty. ?x ns:vacValidity ?vacValidity. 
+	
+	}

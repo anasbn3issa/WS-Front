@@ -1,0 +1,15 @@
+{ "head": {
+    "vars": [ "x" , "vacName" , "vacType" , "vacQty" , "vacValidity" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#Vac2" } ,
+        "vacName": { "type": "literal" , "value": "vac2" } ,
+        "vacType": { "type": "literal" , "value": "vac2Type" } ,
+        "vacQty": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "10" } ,
+        "vacValidity": { "type": "literal" , "value": "2023-05-06:10:00:00" }
+      }
+    ]
+  }
+}

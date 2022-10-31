@@ -1,0 +1,19 @@
+<h5 class="pb-1 mb-4">Child</h5>
+<div class="container">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th *ngFor="let head of JSONToIterate.head.vars">{{ head }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let mydata of JSONToIterate.results.bindings">
+        <td *ngFor="let head of JSONToIterate.head.vars">
+          {{ mydata[head].value }}
+        </td>
+      </tr>
+    </tbody>
+
+    <tbody></tbody>
+  </table>
+</div>

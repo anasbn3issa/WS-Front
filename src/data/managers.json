@@ -1,0 +1,16 @@
+{ "head": {
+    "vars": [ "x" , "email" , "username" , "password" , "asso" , "assocName" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#mgr1" } ,
+        "email": { "type": "literal" , "value": "mgr1@email.com" } ,
+        "username": { "type": "literal" , "value": "mgr1" } ,
+        "password": { "type": "literal" , "value": "pwd123" } ,
+        "asso": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#a7eba2_el_haywanet" } ,
+        "assocName": { "type": "literal" , "value": "a7eba2_el_haywanet" }
+      }
+    ]
+  }
+}

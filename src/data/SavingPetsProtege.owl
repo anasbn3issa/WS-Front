@@ -1,0 +1,1042 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Accepts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Accepts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Belongs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Belongs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Contains"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Has"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Is_managed_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Is_managed_by"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Joins -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Joins"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Manage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Manage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Takes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Takes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#administred_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#administred_to"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#has_some -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#has_some"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#is -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#is"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#is_awarded -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#is_awarded">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#is_awarded_to"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#is_awarded_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#is_awarded_to"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#is_lead_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#is_lead_by">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#leads"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#leads -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#leads"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#sheltered_In -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#sheltered_In">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#shelters"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#shelters -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#shelters"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#undertaken_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#undertaken_by">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#undertakes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#undertakes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#undertakes"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Address">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Local"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Veterinarian"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Pet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#CaptureDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#CaptureDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Pet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Sterilization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Description">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Association"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Duration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Duration">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Email">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#User"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Veterinarian"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Fee -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Fee">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Sterilization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Association"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Local"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Pet"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Reward"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Vaccine"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Veterinarian"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Password -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Password">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Phone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Phone">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Veterinarian"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Quantity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Quantity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Reward"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Vaccine"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#RIB -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#RIB">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Association"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Race -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Race">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Pet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Remarks -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Remarks">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Sterilization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Status -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Status">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Local"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Timestamp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Timestamp">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Pet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Username -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Username">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Validity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Validity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Vaccine"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#gender -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#gender">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Association -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Association">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Local"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Is_managed_by"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Manager"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Local"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Canine_contagious_hepatitis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Canine_contagious_hepatitis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Local -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Local">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Accepts"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Volunteer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#shelters"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Pet"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Belongs"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Association"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Manager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Manager">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Manage"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Association"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Pet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Pet">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Takes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Vaccine"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#sheltered_In"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Local"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#undertakes"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Sterilization"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Reward -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Reward">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#is_awarded_to"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Reward"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Sterilization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Sterilization">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#is_lead_by"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Veterinarian"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#undertaken_by"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Pet"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#User"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Vaccine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Vaccine">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#administred_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Pet"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Veterinarian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Veterinarian">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#leads"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Sterilization"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Volunteer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Volunteer">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Joins"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Local"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#is_awarded"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Reward"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#american_staffordshire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#american_staffordshire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#terrier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#animalia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#animalia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#cat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#australian_sheperd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#australian_sheperd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#herding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#basenji -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#basenji">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#hound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#beagle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#beagle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#hound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#bernese_moutain_dog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#bernese_moutain_dog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#working"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#boeder_collie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#boeder_collie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#herding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#boston -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#boston">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#terrier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#boxer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#boxer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#working"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#bull -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#bull">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#terrier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#bulldog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#bulldog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#non-sporting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#carnivora -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#carnivora">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#cat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#cat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#cat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Pet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#catus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#catus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#cat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#chihuahua -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#chihuahua">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#toy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#chinese_crested -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#chinese_crested">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#toy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#chordata -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#chordata">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#cat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#chow_chow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#chow_chow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#non-sporting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#dachshund -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#dachshund">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#hound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#dalmatian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#dalmatian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#non-sporting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#dandie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#dandie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#terrier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#distemper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#distemper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#doberman_pincher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#doberman_pincher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#working"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#dog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#dog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Pet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#felidae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#felidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#cat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#felis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#felis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#cat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#french_bulldog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#french_bulldog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#non-sporting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#german_sheperd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#german_sheperd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#herding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#golden_retriever -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#golden_retriever">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#sporting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#great_dane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#great_dane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#working"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#greyhound -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#greyhound">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#hound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#havanese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#havanese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#toy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#herding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#herding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#dog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#hound -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#hound">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#dog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#kennel_cough -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#kennel_cough">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#labrador_retriever -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#labrador_retriever">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#sporting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#leptospirosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#leptospirosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#maltese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#maltese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#toy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#mammalia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#mammalia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#cat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#non-sporting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#non-sporting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#dog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#parvovirus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#parvovirus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#pembroke_welsh_corgi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#pembroke_welsh_corgi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#herding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#piroplasmosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#piroplasmosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#poodle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#poodle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#non-sporting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#rabies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#rabies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#sily -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#sily">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#terrier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#sporting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#sporting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#dog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#terrier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#terrier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#dog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#toy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#toy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#dog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#treatment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#working -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#working">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#dog"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#a7eba2_el_haywanet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#a7eba2_el_haywanet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Association"/>
+        <Contains rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#local1"/>
+        <Description>n7ebou el haywnanet</Description>
+        <Name>zezez</Name>
+        <RIB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1354684</RIB>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#local1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#local1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Local"/>
+        <Belongs rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#a7eba2_el_haywanet"/>
+        <Address>15 51zze 151155</Address>
+        <Name>wiggler</Name>
+        <Status>clawsed</Status>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#vaccine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#vaccine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Vaccine"/>
+        <Name>dwe</Name>
+        <Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Quantity>
+        <Validity rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Validity>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#wajdi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#wajdi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Veterinarian"/>
+        <leads rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#3amaliya"/>
+        <Address>yasminet</Address>
+        <Email>azea@azeae</Email>
+        <Name>wajdi</Name>
+        <Phone rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13121231</Phone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#3amaliya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#3amaliya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#Sterilization"/>
+        <is_lead_by rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#wajdi"/>
+        <Date>2022/05/05</Date>
+        <Fee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Fee>
+        <Validity>jawou behi ama i3ayet</Validity>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#9atous -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#9atous">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#cat"/>
+        <undertakes rdf:resource="http://www.semanticweb.org/anas/ontologies/2022/9/untitled-ontology-3#3amaliya"/>
+        <Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Age>
+        <Name>9atous</Name>
+        <Race>animalia</Race>
+        <Type>cat</Type>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

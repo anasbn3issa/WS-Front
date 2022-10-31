@@ -1,0 +1,28 @@
+{ "head": {
+    "vars": [ "x" , "asocDesc" , "asocName" , "asocRIB" , "local" , "localName" , "manager" , "username" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#a7eba2_el_haywanet" } ,
+        "asocDesc": { "type": "literal" , "value": "nhebou el haywanet" } ,
+        "asocName": { "type": "literal" , "value": "a7eba2_el_haywanet" } ,
+        "asocRIB": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1234567897854" } ,
+        "local": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#local2" } ,
+        "localName": { "type": "literal" , "value": "loukal" } ,
+        "manager": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#mgr1" } ,
+        "username": { "type": "literal" , "value": "mgr1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#a7eba2_el_haywanet" } ,
+        "asocDesc": { "type": "literal" , "value": "nhebou el haywanet" } ,
+        "asocName": { "type": "literal" , "value": "a7eba2_el_haywanet" } ,
+        "asocRIB": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1234567897854" } ,
+        "local": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#local1" } ,
+        "localName": { "type": "literal" , "value": "Samet Khaoula Local" } ,
+        "manager": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#mgr1" } ,
+        "username": { "type": "literal" , "value": "mgr1" }
+      }
+    ]
+  }
+}

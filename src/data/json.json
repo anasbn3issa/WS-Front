@@ -1,0 +1,16 @@
+{ "head": {
+    "vars": [ "x" , "name" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#Vac2" } ,
+        "name": { "type": "literal" , "value": "vac2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#Vac1" } ,
+        "name": { "type": "literal" , "value": "Vac1" }
+      }
+    ]
+  }
+}

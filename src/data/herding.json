@@ -1,0 +1,15 @@
+{ "head": {
+    "vars": [ "x" , "petAge" , "petCaptureDate" , "petName" , "petRace" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#ba7lous" } ,
+        "petAge": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" } ,
+        "petCaptureDate": { "type": "literal" , "value": "2023-05-05:10:00:00" } ,
+        "petName": { "type": "literal" , "value": "ba7lous" } ,
+        "petRace": { "type": "literal" , "value": "chihuahua" }
+      }
+    ]
+  }
+}

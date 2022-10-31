@@ -1,0 +1,8 @@
+PREFIX ns: <http://www.owl-ontologies.com/Famille.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT *
+	WHERE {?x a ns:Terrier. ?x ns:petAge ?petAge .  ?x ns:petCaptureDate ?petCaptureDate. ?x ns:petName ?petName. ?x ns:petRace ?petRace. 
+	}

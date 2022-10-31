@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This ontology about faculty 
+and contains some of classes ,object properties ,attributes and instances that describe the concept of faculty</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Belongs_To -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Belongs_To">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Has_Student"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Department"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Has">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student_Registeration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Has_Boss -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Has_Boss">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Supervise"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Department"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Has_Professor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Has_Professor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Department"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Has_Student -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Has_Student">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Department"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student_Registeration -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student_Registeration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Supervise -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Supervise">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Department"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Teach -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Teach">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Teached_By"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Teached_By -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Teached_By">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Address">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Code -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Code">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Department"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Grade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Grade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#ID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#ID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Phone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Phone">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student_Registeration"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student_Registeration"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">200</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#University"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Department -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Department">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Has_Professor"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Has_Boss"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#University"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#New_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#New_System">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Old_System"/>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Old_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Old_System">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#New_System"/>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Teach"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Teach"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#University"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Has"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Has"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#University"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#University -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#University"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#CS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#CS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Department"/>
+        <Has_Boss rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Prof_1"/>
+        <Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS 1</Code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course"/>
+        <Teached_By rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Prof_2"/>
+        <Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C++</Code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course"/>
+        <Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EA</Code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#IS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#IS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Department"/>
+        <Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IS 1</Code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#IT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#IT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Department"/>
+        <Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT 1</Code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#MM -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#MM">
+        <rdf:type rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Department"/>
+        <Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MM 1</Code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Prof_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Prof_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor"/>
+        <Teach rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Course_1"/>
+        <Address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOHAGE</Address>
+        <Age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45</Age>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AHMED</Name>
+        <Phone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0102920101</Phone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Prof_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Prof_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Professor"/>
+        <Address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASSIUT</Address>
+        <Age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">39</Age>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMAR</Name>
+        <Phone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0123442444</Phone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#New_System"/>
+        <Address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOHAGE</Address>
+        <Age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23</Age>
+        <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100</Grade>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMAR</Name>
+        <Phone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0233232111</Phone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Student_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/walid/ontologies/2016/11/untitled-ontology-8#Old_System"/>
+        <Address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASSIUT</Address>
+        <Age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</Age>
+        <Grade rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50</Grade>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAMY</Name>
+        <Phone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4332343232</Phone>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

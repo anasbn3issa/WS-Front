@@ -1,0 +1,22 @@
+{ "head": {
+    "vars": [ "x" , "sterDate" , "sterFee" , "sterRemarks" , "sterVeto" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#ster2" } ,
+        "sterDate": { "type": "literal" , "value": "2023-05-05:10:00:00" } ,
+        "sterFee": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "51" } ,
+        "sterRemarks": { "type": "literal" , "value": "mriglin" } ,
+        "sterVeto": { "type": "literal" , "value": "wajdi" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#ster1" } ,
+        "sterDate": { "type": "literal" , "value": "2022-05-15:15:3:05" } ,
+        "sterFee": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "22.5" } ,
+        "sterRemarks": { "type": "literal" , "value": "RAS" } ,
+        "sterVeto": { "type": "literal" , "value": "Wajdi" }
+      }
+    ]
+  }
+}

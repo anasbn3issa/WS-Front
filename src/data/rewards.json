@@ -1,0 +1,24 @@
+{ "head": {
+    "vars": [ "x" , "rwName" , "rwQuantity" , "rwType" , "volunteer" , "userUsername" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#rw2" } ,
+        "rwName": { "type": "literal" , "value": "rewName" } ,
+        "rwQuantity": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "30" } ,
+        "rwType": { "type": "literal" , "value": "points" } ,
+        "volunteer": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#vol1" } ,
+        "userUsername": { "type": "literal" , "value": "vol1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#rw1" } ,
+        "rwName": { "type": "literal" , "value": "Gift Card" } ,
+        "rwQuantity": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" } ,
+        "rwType": { "type": "literal" , "value": "service" } ,
+        "volunteer": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#vol1" } ,
+        "userUsername": { "type": "literal" , "value": "vol1" }
+      }
+    ]
+  }
+}

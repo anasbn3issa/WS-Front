@@ -1,0 +1,45 @@
+<h1>Vaccine</h1>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-title">Piroplasmosis</div>
+        <div class="card-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th *ngFor="let head of piroplasmosis.head.vars">{{ head }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let mydata of piroplasmosis.results.bindings">
+                <td *ngFor="let head of piroplasmosis.head.vars">
+                  {{ mydata[head].value }}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">Distemper</div>
+        <div class="card-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th *ngFor="let head of distemper.head.vars">{{ head }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let mydata of distemper.results.bindings">
+                <td *ngFor="let head of distemper.head.vars">
+                  {{ mydata[head].value }}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

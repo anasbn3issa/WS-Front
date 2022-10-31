@@ -1,0 +1,24 @@
+{ "head": {
+    "vars": [ "x" , "localAdr" , "localName" , "localStatus" , "asso" , "assocName" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#local2" } ,
+        "localAdr": { "type": "literal" , "value": "132 zzzd 1515" } ,
+        "localName": { "type": "literal" , "value": "loukal" } ,
+        "localStatus": { "type": "literal" , "value": "clawsed" } ,
+        "asso": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#a7eba2_el_haywanet" } ,
+        "assocName": { "type": "literal" , "value": "a7eba2_el_haywanet" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#local1" } ,
+        "localAdr": { "type": "literal" , "value": "P9C6+F6R, Hammam-Lif" } ,
+        "localName": { "type": "literal" , "value": "Samet Khaoula Local" } ,
+        "localStatus": { "type": "literal" , "value": "open" } ,
+        "asso": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#a7eba2_el_haywanet" } ,
+        "assocName": { "type": "literal" , "value": "a7eba2_el_haywanet" }
+      }
+    ]
+  }
+}

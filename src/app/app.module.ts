@@ -14,7 +14,15 @@ import { SecteurActiviteComponent } from './secteur-activite/secteur-activite.co
 import { OperateurComponent } from './operateur/operateur.component';
 import { FactureComponent } from './facture/facture.component';
 import { NavbarComponent } from './navbar/navbar.component';
-
+import { RootCardComponent } from './ModelsCards/RootCard.component';
+import { CommonModule } from '@angular/common';
+import { ChildCardComponent } from './ModelsCards/ChildCard.component';
+import { PetCardComponent } from './ModelsCards/pet.component';
+import { CatCardComponent } from './ModelsCards/Cat.component';
+import { DogCardComponent } from './ModelsCards/Dog.component';
+import { TreatementCardComponent } from './ModelsCards/Treatement.component';
+import { VaccineCardComponent } from './ModelsCards/Vaccine.component';
+import { UserCardComponent } from './ModelsCards/User.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,8 +32,15 @@ import { NavbarComponent } from './navbar/navbar.component';
     SecteurActiviteComponent,
     OperateurComponent,
     FactureComponent,
-    NavbarComponent
-  ],
+    RootCardComponent,
+    NavbarComponent,
+    ChildCardComponent,
+    PetCardComponent,
+    CatCardComponent,
+    DogCardComponent,
+    TreatementCardComponent,
+    VaccineCardComponent,
+    UserCardComponent  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -33,7 +48,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     FormsModule,
     NgbModalModule,
     RouterModule,
-    NgbModule
+    NgbModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

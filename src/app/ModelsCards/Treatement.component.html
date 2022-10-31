@@ -1,0 +1,38 @@
+<h1>Treatements</h1>
+<div class="container">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-title">Sterilization</div>
+          <div class="card">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th *ngFor="let head of sterilization.head.vars">
+                    {{ head }}
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let mydata of sterilization.results.bindings">
+                  <td *ngFor="let head of sterilization.head.vars">
+                    {{ mydata[head].value }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">Vaccine</div>
+          <div class="card-body">
+            <button class="btn btn-primary" (click)="redirect('vaccine')">
+              see>>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

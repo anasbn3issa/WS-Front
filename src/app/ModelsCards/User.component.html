@@ -1,0 +1,47 @@
+<h1>users</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-title">Manager</div>
+        <div class="card-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th *ngFor="let head of manager.head.vars">{{ head }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let mydata of manager.results.bindings">
+                <td *ngFor="let head of manager.head.vars">
+                  {{ mydata[head].value }}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Volunteer</div>
+        <div class="card-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th *ngFor="let head of volunteer.head.vars">{{ head }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let mydata of volunteer.results.bindings">
+                <td *ngFor="let head of volunteer.head.vars">
+                  {{ mydata[head].value }}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

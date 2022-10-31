@@ -1,0 +1,30 @@
+{ "head": {
+    "vars": [ "x" , "petAge" , "petCaptureDate" , "petName" , "petRace" , "vaccine" , "vacName" , "ster" , "sterRemarks" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#9atous" } ,
+        "petAge": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" } ,
+        "petCaptureDate": { "type": "literal" , "value": "2023-05-05:10:00:00" } ,
+        "petName": { "type": "literal" , "value": "9atous" } ,
+        "petRace": { "type": "literal" , "value": "turkish" } ,
+        "vaccine": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#Vac1" } ,
+        "vacName": { "type": "literal" , "value": "Vac1" } ,
+        "ster": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#ster1" } ,
+        "sterRemarks": { "type": "literal" , "value": "RAS" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#ba7lous" } ,
+        "petAge": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" } ,
+        "petCaptureDate": { "type": "literal" , "value": "2023-05-05:10:00:00" } ,
+        "petName": { "type": "literal" , "value": "ba7lous" } ,
+        "petRace": { "type": "literal" , "value": "chihuahua" } ,
+        "vaccine": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#Vac2" } ,
+        "vacName": { "type": "literal" , "value": "vac2" } ,
+        "ster": { "type": "uri" , "value": "http://www.owl-ontologies.com/Famille.owl#ster2" } ,
+        "sterRemarks": { "type": "literal" , "value": "mriglin" }
+      }
+    ]
+  }
+}
